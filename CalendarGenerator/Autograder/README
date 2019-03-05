@@ -1,0 +1,11 @@
+CS2303 Calendar Auto-Grader
+
+This auto-grader is a tool designed for Student and TA use to aid in evaluating submissions for the Calendar assignment. When run, it creates a set of randomized test cases and compares the output of your program to the output of our solution. You may use this to identify where formatting errors occur in your output. Because it does exact character comparison, your formatting must exactly match that shown in your assignment pdf. Whitespace is included, and will be graded by our auto-grader and the grading staff.
+
+Using the Auto-Grader:
+To run the auto-grader, your assignment must be named HW1.c, such that the compiled executable is named HW1. After unzipping the downloadable auto-grader file, move the Autograder folder into same folder as the folder HW1, where your project is. Open terminal by right clicking on the Autograder folder and selecting ‘open terminal here’, then run ‘$ python3 Autograder.py’. Our auto-grader looks at all output following the string CALENDAR, which should be directly prior to your production code output, as shown in the example given in your assignment, and assumes it ends with ‘Production seems to have worked.’
+
+Grading:
+Keep in mind that the grading staff will be using the auto-grader as a tool to test your code, but will still be manually grading your assignments. That is, they will not directly use the score out of 10 that our auto-grader supplies, as our auto-grader does not provide partial credit. 
+
+As this is an active MQP, we would appreciate any feedback on the usefulness of our tool, and would be happy to receive questions and comments. Please email both tjwhitworth@wpi.edu and cliu10@wpi.edu with questions, concerns, and feedback.
