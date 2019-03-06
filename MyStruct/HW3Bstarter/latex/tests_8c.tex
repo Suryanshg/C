@@ -1,0 +1,196 @@
+\section{tests.\+c File Reference}
+\label{tests_8c}\index{tests.\+c@{tests.\+c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}tests.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}production.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}mystruct.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \textbf{ tests} (void)
+\item 
+bool \textbf{ test\+Print\+Employee} ()
+\item 
+bool \textbf{ test\+Make\+Employee} ()
+\item 
+bool \textbf{ test\+Rand\+Int} ()
+\item 
+bool \textbf{ test\+Rand\+Char} ()
+\item 
+bool \textbf{ test\+Rand\+Str} ()
+\item 
+bool \textbf{ test\+Make\+Random\+Employee} ()
+\item 
+bool \textbf{ test\+Make\+Arr} ()
+\item 
+bool \textbf{ test\+Print\+Employee\+Arr} ()
+\item 
+bool \textbf{ test\+Dup\+Arr} ()
+\item 
+bool \textbf{ test\+Dup\+Arr1} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\label{tests_8c_ab663fb0859b8ec087182bf35815ddd7b}} 
+\index{tests.\+c@{tests.\+c}!test\+Dup\+Arr@{test\+Dup\+Arr}}
+\index{test\+Dup\+Arr@{test\+Dup\+Arr}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Dup\+Arr()}
+{\footnotesize\ttfamily bool test\+Dup\+Arr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References dup\+Arr(), make\+Arr(), and print\+Employees\+Arr().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_a8cf7e4657d9b09b9702affa89789bbb5}} 
+\index{tests.\+c@{tests.\+c}!test\+Dup\+Arr1@{test\+Dup\+Arr1}}
+\index{test\+Dup\+Arr1@{test\+Dup\+Arr1}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Dup\+Arr1()}
+{\footnotesize\ttfamily bool test\+Dup\+Arr1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References dup\+Arr1(), make\+Arr(), and print\+Employees\+Arr().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_a7e28839e827c6a10c4d9c049b1e7c21a}} 
+\index{tests.\+c@{tests.\+c}!test\+Make\+Arr@{test\+Make\+Arr}}
+\index{test\+Make\+Arr@{test\+Make\+Arr}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Make\+Arr()}
+{\footnotesize\ttfamily bool test\+Make\+Arr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References make\+Arr().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_ae4ba22f3bf16452487efa177cce283e3}} 
+\index{tests.\+c@{tests.\+c}!test\+Make\+Employee@{test\+Make\+Employee}}
+\index{test\+Make\+Employee@{test\+Make\+Employee}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Make\+Employee()}
+{\footnotesize\ttfamily bool test\+Make\+Employee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Test the make \doxyref{Employee()}{p.}{structEmployee} function by making an employee with known data and printing it. \begin{DoxyReturn}{Returns}
+true. The only way to tell if it succeeds is to look at the output. 
+\end{DoxyReturn}
+
+
+References make\+Employee(), and print\+Employee().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_a0d7a52b6f312745d704ab8d295d752b4}} 
+\index{tests.\+c@{tests.\+c}!test\+Make\+Random\+Employee@{test\+Make\+Random\+Employee}}
+\index{test\+Make\+Random\+Employee@{test\+Make\+Random\+Employee}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Make\+Random\+Employee()}
+{\footnotesize\ttfamily bool test\+Make\+Random\+Employee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References make\+Random\+Employee(), and print\+Employee().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_a41c2076a85046e7a355b6993fbeb5f88}} 
+\index{tests.\+c@{tests.\+c}!test\+Print\+Employee@{test\+Print\+Employee}}
+\index{test\+Print\+Employee@{test\+Print\+Employee}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Print\+Employee()}
+{\footnotesize\ttfamily bool test\+Print\+Employee (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Test the \doxyref{print\+Employee()}{p.}{mystruct_8c_acff9aa9547982f1b0effbd6f302e325e} function by creating a known struct and printing it. \begin{DoxyReturn}{Returns}
+true. The only way to tell if it succeeds is to look at the output. 
+\end{DoxyReturn}
+
+
+References Employee\+::birth\+\_\+year, M\+A\+X\+\_\+\+N\+A\+ME, Employee\+::name, print\+Employee(), and Employee\+::start\+\_\+year.
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_ab2f74d57a511e24cdf2d392f43281489}} 
+\index{tests.\+c@{tests.\+c}!test\+Print\+Employee\+Arr@{test\+Print\+Employee\+Arr}}
+\index{test\+Print\+Employee\+Arr@{test\+Print\+Employee\+Arr}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Print\+Employee\+Arr()}
+{\footnotesize\ttfamily bool test\+Print\+Employee\+Arr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References make\+Arr(), and print\+Employees\+Arr().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_a3837e4838f75a1c886297e665e44af30}} 
+\index{tests.\+c@{tests.\+c}!test\+Rand\+Char@{test\+Rand\+Char}}
+\index{test\+Rand\+Char@{test\+Rand\+Char}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Rand\+Char()}
+{\footnotesize\ttfamily bool test\+Rand\+Char (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References rand\+Char().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_a3ffbc602152b7bb6593491d550126209}} 
+\index{tests.\+c@{tests.\+c}!test\+Rand\+Int@{test\+Rand\+Int}}
+\index{test\+Rand\+Int@{test\+Rand\+Int}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Rand\+Int()}
+{\footnotesize\ttfamily bool test\+Rand\+Int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References randint().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_a9573846ee316efb672e36a3ab3b0b91f}} 
+\index{tests.\+c@{tests.\+c}!test\+Rand\+Str@{test\+Rand\+Str}}
+\index{test\+Rand\+Str@{test\+Rand\+Str}!tests.\+c@{tests.\+c}}
+\subsubsection{test\+Rand\+Str()}
+{\footnotesize\ttfamily bool test\+Rand\+Str (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References rand\+Str().
+
+
+
+Referenced by tests().
+
+\mbox{\label{tests_8c_a5e6e6e78df62797046c9ea173550a68a}} 
+\index{tests.\+c@{tests.\+c}!tests@{tests}}
+\index{tests@{tests}!tests.\+c@{tests.\+c}}
+\subsubsection{tests()}
+{\footnotesize\ttfamily bool tests (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+References test\+Dup\+Arr(), test\+Dup\+Arr1(), test\+Make\+Arr(), test\+Make\+Employee(), test\+Make\+Random\+Employee(), test\+Print\+Employee(), test\+Print\+Employee\+Arr(), test\+Rand\+Char(), test\+Rand\+Int(), and test\+Rand\+Str().
+
+
+
+Referenced by main().
+

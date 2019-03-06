@@ -1,0 +1,214 @@
+\section{mystruct.\+h File Reference}
+\label{mystruct_8h}\index{mystruct.\+h@{mystruct.\+h}}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \textbf{ Employee}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \textbf{ M\+A\+X\+\_\+\+N\+A\+ME}~(99)
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+struct \textbf{ Employee} $\ast$ \textbf{ make\+Employee} (int birth, int start, const char $\ast$name)
+\item 
+void \textbf{ print\+Employee} (struct \textbf{ Employee} $\ast$e)
+\item 
+struct \textbf{ Employee} $\ast$ \textbf{ make\+Random\+Employee} ()
+\item 
+int \textbf{ randint} (int max)
+\item 
+char \textbf{ rand\+Char} ()
+\item 
+char $\ast$ \textbf{ rand\+Str} (int size)
+\item 
+struct \textbf{ Employee} $\ast$$\ast$ \textbf{ make\+Arr} (int count)
+\item 
+void \textbf{ print\+Employees\+Arr} (struct \textbf{ Employee} $\ast$$\ast$arr, int count)
+\item 
+struct \textbf{ Employee} $\ast$$\ast$ \textbf{ dup\+Arr} (struct \textbf{ Employee} $\ast$$\ast$arr, int count)
+\item 
+void \textbf{ de\+Alloc} (struct \textbf{ Employee} $\ast$$\ast$arr, int count)
+\item 
+struct \textbf{ Employee} $\ast$$\ast$ \textbf{ dup\+Arr1} (struct \textbf{ Employee} $\ast$$\ast$arr, int count)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\label{mystruct_8h_ac7c0207aa5a0e10d378be03b68041350}} 
+\index{mystruct.\+h@{mystruct.\+h}!M\+A\+X\+\_\+\+N\+A\+ME@{M\+A\+X\+\_\+\+N\+A\+ME}}
+\index{M\+A\+X\+\_\+\+N\+A\+ME@{M\+A\+X\+\_\+\+N\+A\+ME}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{M\+A\+X\+\_\+\+N\+A\+ME}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+\+N\+A\+ME~(99)}
+
+\doxyref{mystruct.\+h}{p.}{mystruct_8h} \begin{DoxyAuthor}{Author}
+Mike Ciaraldi Sample structs 
+\end{DoxyAuthor}
+
+
+Referenced by make\+Employee(), make\+Random\+Employee(), and test\+Print\+Employee().
+
+
+
+\subsection{Function Documentation}
+\mbox{\label{mystruct_8h_adefdaa75a2ff7236504fa231c55f5b7b}} 
+\index{mystruct.\+h@{mystruct.\+h}!de\+Alloc@{de\+Alloc}}
+\index{de\+Alloc@{de\+Alloc}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{de\+Alloc()}
+{\footnotesize\ttfamily void de\+Alloc (\begin{DoxyParamCaption}\item[{struct \textbf{ Employee} $\ast$$\ast$}]{arr,  }\item[{int}]{count }\end{DoxyParamCaption})}
+
+\mbox{\label{mystruct_8h_a891adc0a66ca31b564a907972d00616b}} 
+\index{mystruct.\+h@{mystruct.\+h}!dup\+Arr@{dup\+Arr}}
+\index{dup\+Arr@{dup\+Arr}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{dup\+Arr()}
+{\footnotesize\ttfamily struct \textbf{ Employee}$\ast$$\ast$ dup\+Arr (\begin{DoxyParamCaption}\item[{struct \textbf{ Employee} $\ast$$\ast$}]{arr,  }\item[{int}]{count }\end{DoxyParamCaption})}
+
+
+
+Referenced by test\+Dup\+Arr().
+
+\mbox{\label{mystruct_8h_aa6cb82a8009a09c2d3e7472c144439da}} 
+\index{mystruct.\+h@{mystruct.\+h}!dup\+Arr1@{dup\+Arr1}}
+\index{dup\+Arr1@{dup\+Arr1}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{dup\+Arr1()}
+{\footnotesize\ttfamily struct \textbf{ Employee}$\ast$$\ast$ dup\+Arr1 (\begin{DoxyParamCaption}\item[{struct \textbf{ Employee} $\ast$$\ast$}]{arr,  }\item[{int}]{count }\end{DoxyParamCaption})}
+
+
+
+References Employee\+::birth\+\_\+year, make\+Employee(), Employee\+::name, and Employee\+::start\+\_\+year.
+
+
+
+Referenced by test\+Dup\+Arr1().
+
+\mbox{\label{mystruct_8h_ac67d7426d45f8e3689e9c7906f7462c7}} 
+\index{mystruct.\+h@{mystruct.\+h}!make\+Arr@{make\+Arr}}
+\index{make\+Arr@{make\+Arr}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{make\+Arr()}
+{\footnotesize\ttfamily struct \textbf{ Employee}$\ast$$\ast$ make\+Arr (\begin{DoxyParamCaption}\item[{int}]{count }\end{DoxyParamCaption})}
+
+
+
+References make\+Random\+Employee().
+
+
+
+Referenced by test\+Dup\+Arr(), test\+Dup\+Arr1(), test\+Make\+Arr(), and test\+Print\+Employee\+Arr().
+
+\mbox{\label{mystruct_8h_a47ede2fced0227e67281196472097118}} 
+\index{mystruct.\+h@{mystruct.\+h}!make\+Employee@{make\+Employee}}
+\index{make\+Employee@{make\+Employee}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{make\+Employee()}
+{\footnotesize\ttfamily struct \textbf{ Employee}$\ast$ make\+Employee (\begin{DoxyParamCaption}\item[{int}]{birth,  }\item[{int}]{start,  }\item[{const char $\ast$}]{name }\end{DoxyParamCaption})}
+
+\doxyref{mystruct.\+c}{p.}{mystruct_8c} \begin{DoxyAuthor}{Author}
+Mike Ciaraldi Allocates an \doxyref{Employee}{p.}{structEmployee} struct and fills in its fields 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em birth} & Year the employee was born. \\
+\hline
+{\em start} & Year the employee started with the company. \\
+\hline
+{\em name} & String containing employee\textquotesingle{}s name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to \doxyref{Employee}{p.}{structEmployee} struct, newly allocated from the heap. 
+\end{DoxyReturn}
+
+
+References Employee\+::birth\+\_\+year, M\+A\+X\+\_\+\+N\+A\+ME, Employee\+::name, and Employee\+::start\+\_\+year.
+
+
+
+Referenced by dup\+Arr1(), make\+Random\+Employee(), and test\+Make\+Employee().
+
+\mbox{\label{mystruct_8h_a3a236a57a40387807c40bf62b5b8fe90}} 
+\index{mystruct.\+h@{mystruct.\+h}!make\+Random\+Employee@{make\+Random\+Employee}}
+\index{make\+Random\+Employee@{make\+Random\+Employee}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{make\+Random\+Employee()}
+{\footnotesize\ttfamily struct \textbf{ Employee}$\ast$ make\+Random\+Employee (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References make\+Employee(), M\+A\+X\+\_\+\+N\+A\+ME, Employee\+::name, randint(), and rand\+Str().
+
+
+
+Referenced by make\+Arr(), and test\+Make\+Random\+Employee().
+
+\mbox{\label{mystruct_8h_acff9aa9547982f1b0effbd6f302e325e}} 
+\index{mystruct.\+h@{mystruct.\+h}!print\+Employee@{print\+Employee}}
+\index{print\+Employee@{print\+Employee}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{print\+Employee()}
+{\footnotesize\ttfamily void print\+Employee (\begin{DoxyParamCaption}\item[{struct \textbf{ Employee} $\ast$}]{e }\end{DoxyParamCaption})}
+
+Prints the given employee 
+\begin{DoxyParams}{Parameters}
+{\em struct} & \doxyref{Employee}{p.}{structEmployee} $\ast$e, the employee whose info is to be printed @ return void, just prints the details of the employee \\
+\hline
+\end{DoxyParams}
+
+
+References Employee\+::birth\+\_\+year, Employee\+::name, and Employee\+::start\+\_\+year.
+
+
+
+Referenced by print\+Employees\+Arr(), test\+Make\+Employee(), test\+Make\+Random\+Employee(), and test\+Print\+Employee().
+
+\mbox{\label{mystruct_8h_accff5c1e2d745f81d8d474ff0dfa2b23}} 
+\index{mystruct.\+h@{mystruct.\+h}!print\+Employees\+Arr@{print\+Employees\+Arr}}
+\index{print\+Employees\+Arr@{print\+Employees\+Arr}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{print\+Employees\+Arr()}
+{\footnotesize\ttfamily void print\+Employees\+Arr (\begin{DoxyParamCaption}\item[{struct \textbf{ Employee} $\ast$$\ast$}]{arr,  }\item[{int}]{count }\end{DoxyParamCaption})}
+
+
+
+References print\+Employee().
+
+
+
+Referenced by test\+Dup\+Arr(), test\+Dup\+Arr1(), and test\+Print\+Employee\+Arr().
+
+\mbox{\label{mystruct_8h_ab34a3eb028740a3f61ce69c5efaac376}} 
+\index{mystruct.\+h@{mystruct.\+h}!rand\+Char@{rand\+Char}}
+\index{rand\+Char@{rand\+Char}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{rand\+Char()}
+{\footnotesize\ttfamily char rand\+Char (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+References randint().
+
+
+
+Referenced by rand\+Str(), and test\+Rand\+Char().
+
+\mbox{\label{mystruct_8h_af8d4ba5cd30c0435949ed7fb78d7712f}} 
+\index{mystruct.\+h@{mystruct.\+h}!randint@{randint}}
+\index{randint@{randint}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{randint()}
+{\footnotesize\ttfamily int randint (\begin{DoxyParamCaption}\item[{int}]{max }\end{DoxyParamCaption})}
+
+
+
+Referenced by make\+Random\+Employee(), rand\+Char(), and test\+Rand\+Int().
+
+\mbox{\label{mystruct_8h_ab94d7d7d5dd3094365dabf049be964f7}} 
+\index{mystruct.\+h@{mystruct.\+h}!rand\+Str@{rand\+Str}}
+\index{rand\+Str@{rand\+Str}!mystruct.\+h@{mystruct.\+h}}
+\subsubsection{rand\+Str()}
+{\footnotesize\ttfamily char$\ast$ rand\+Str (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+References rand\+Char().
+
+
+
+Referenced by make\+Random\+Employee(), and test\+Rand\+Str().
+
